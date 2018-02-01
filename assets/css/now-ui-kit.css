@@ -56,6 +56,22 @@
     background: rgba(44, 44, 44, 0.2);
 }
 
+.imgcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.rspimg {
+	width: 396px;
+	height: 264px;
+	transition: all 1s;
+}
+
+.rspimg:hover {
+	transform: scale(1.1);
+}
+
 .moving-clouds {
     position: absolute;
     z-index: 1;
