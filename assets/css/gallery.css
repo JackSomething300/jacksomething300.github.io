@@ -7,12 +7,12 @@ body, html {
   
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
-    opacity: 0.80;
+    opacity: 0.9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+    height: 700px;
   }
   .bgimg-1 {
     background-image: url("../img/bg1.jpg");
@@ -20,17 +20,17 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("../img/bg5.jpg");
+    background-image: url("../img/bg12.jpg");
     min-height: 400px;
   }
   
   .bgimg-3 {
-    background-image: url("../img/bg3.jpg");
+    background-image: url("../img/header.jpg");
     min-height: 400px;
   }
   
   .bgimg-4 {
-    background-image: url("../img/bg8.jpg");
+    background-image: url("../img/bg4.jpg");
     min-height: 400px;
   }
   
