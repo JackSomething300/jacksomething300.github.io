@@ -494,7 +494,7 @@
 
 .section-signup
 {
-    background-image: url("/assets/img/photo/im (2).jpg");
+    background-image: url("../img/photo/im (2).jpg");
     background-size: cover; 
     background-position: top center; 
     min-height: 700px;
