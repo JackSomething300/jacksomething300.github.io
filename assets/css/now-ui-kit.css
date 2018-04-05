@@ -5059,8 +5059,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .card[data-background-color="orange"] {
-    background: -webkit-linear-gradient(240deg, #83ce9d, #d19dc1, #d5e4be);
-    background: linear-gradient(240deg, #cddbd2, #d1b9ca, #d5e4be);
+    background: -webkit-linear-gradient(240deg, #4e4e4e, #666666, #919191);
+    background: linear-gradient(240deg, #4e4e4e, #666666, #919191);
 }
 
 .card[data-background-color="red"] {
