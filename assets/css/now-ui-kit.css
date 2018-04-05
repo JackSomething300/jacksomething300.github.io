@@ -4082,7 +4082,6 @@ body {
 
 img {
     max-width: 100%;
-    border-radius: 1px;
 }
 
 .img-raised {
@@ -5060,7 +5059,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .card[data-background-color="orange"] {
-    background-color: #f96332;
+    background: -webkit-linear-gradient(240deg, #83ce9d, #d19dc1, #d5e4be);
+    background: linear-gradient(240deg, #cddbd2, #d1b9ca, #d5e4be);
 }
 
 .card[data-background-color="red"] {

@@ -25,7 +25,7 @@ body, html {
     background-image: url("../img/photo/im (5).jpg");
     min-height: 600px;
     background-attachment: fixed;
-    background-position: center;
+    background-position:unset;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 3;

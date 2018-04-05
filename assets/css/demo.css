@@ -37,8 +37,8 @@
     transform: skewY(-12deg);
     transform-origin: -25%;
     background: #000000;
-    background: -webkit-linear-gradient(240deg, #1f1f1f, #000000, #03001e);
-    background: linear-gradient(240deg, #1f1f1f, #000000, #03001e);
+    background: -webkit-linear-gradient(240deg, #cddbd2, #d1b9ca, #d5e4be);
+    background: linear-gradient(240deg, #cddbd2, #d1b9ca, #d5e4be);
 }
 
 .intro {
