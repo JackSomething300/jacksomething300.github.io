@@ -496,7 +496,7 @@
 {
     background-image: url("../img/photo/im (2).jpg");
     background-size: cover; 
-    background-position: top center; 
+    background-position-y: 60%;
     min-height: 700px;
 }
 
