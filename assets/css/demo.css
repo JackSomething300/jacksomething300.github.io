@@ -494,10 +494,16 @@
 
 .section-signup
 {
-    background-image: url("../img/photo/im (2).jpg");
-    background-size: cover; 
-    background-position-y: 60%;
-    min-height: 700px;
+    min-height: 800px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000000;
+    background: -webkit-linear-gradient(240deg, #302f2f, #2c2b2b, #03020249);
+    background: linear-gradient(240deg, #302f2f, #2c2b2b, #000000);
+    z-index: 3;
 }
 
 .section-signup .col .btn {
@@ -515,6 +521,110 @@
 .section-images {
     padding-bottom: 0;
 }
+
+.card-signup {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+    min-height: 190px;
+}
+
+.card[data-background-color="orange"] {
+    background: -webkit-linear-gradient(240deg, #4e4e4e, #666666, #919191);
+    background: linear-gradient(240deg, #4e4e4e, #666666, #919191);
+}
+
+.card[data-background-color="red"] {
+    background-color: #FF3636;
+}
+
+.card[data-background-color="yellow"] {
+    background-color: #FFB236;
+}
+
+.card[data-background-color="blue"] {
+    background-color: #2CA8FF;
+}
+
+.card[data-background-color="green"] {
+    background-color: #18ce0f;
+}
+
+.card-signup .header {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 0;
+}
+
+.card-signup .text-divider {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-signup .card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: auto;
+}
+
+.card-signup .checkbox {
+    margin-top: 20px;
+}
+
+.card-signup .checkbox label {
+    margin-left: 17px;
+}
+
+.card-signup .checkbox .checkbox-material {
+    padding-right: 12px;
+}
+
+.card-signup .social-line {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-signup .social-line .btn.btn-icon,
+.card-signup .social-line .btn.btn-icon .btn-icon -mini {
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-signup .footer {
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.card-plain {
+    background: transparent;
+    box-shadow: none;
+}
+
+.card-plain .header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-plain .content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 @media screen and (max-width: 991px) {
     .section-navbars .navbar-collapse {
