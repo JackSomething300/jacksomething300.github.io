@@ -5,7 +5,7 @@ body, html {
     color: #777;
   }
   
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 .bgimg-5{
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 .bgimg-5 .bgimg-6{
     position: relative;
     height: 700px;
     z-index: 10;
@@ -54,6 +54,20 @@ body, html {
   }
 
   .bgimg-5 {
+    min-height: 800px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000000;
+    background: -webkit-linear-gradient(240deg, #302f2f, #2c2b2b, #03020249);
+    background: linear-gradient(240deg, #302f2f, #2c2b2b, #000000);
+    z-index: 3;
+  }
+
+  
+  .bgimg-6 {
     min-height: 800px;
     overflow: hidden;
     background-attachment: fixed;
