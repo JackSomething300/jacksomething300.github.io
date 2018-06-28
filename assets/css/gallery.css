@@ -62,33 +62,42 @@ img {
 	z-index: 2;
 }
 
-.grid {
+.gallerycontainer
+{
+	margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .grid {
 	position: relative;
 	max-width: 1000px;
 	list-style: none;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 40%;
+  	text-align: center;
+ 	display: block;
+    margin-left: 25%;
+    margin-right: auto;
+	width: 100%;
 	margin-top: 7%;
+	height: 100%;
 }
 
 /* Common style */
-.grid figure {
+/* .grid figure {
 	position: relative;
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
-}
-
+	widows: 100%;
+	height: 100%;
+} */
+/* 
 .grid figure img {
 	position: relative;
 	display: block;
@@ -118,11 +127,11 @@ img {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+} */
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+/* .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
@@ -147,13 +156,13 @@ img {
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
-}
+} */
 
 /*---------------*/
 /***** Honey *****/
 /*---------------*/
 
-figure.effect-honey {
+/* figure.effect-honey {
   background: #4a3753;
 }
 
@@ -209,7 +218,7 @@ figure.effect-honey:hover figcaption::before,
 figure.effect-honey:hover h2,
 figure.effect-honey:hover h2 i {
 	opacity: 1;
-}
+}  */
 
 
 
