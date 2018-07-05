@@ -64,9 +64,11 @@ img {
 
 .gallerycontainer
 {
-	margin-top: 7%;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	background: #000000;
+    background: -webkit-linear-gradient(240deg, #302f2f, #2c2b2b, #03020249);
+    background: linear-gradient(240deg, #302f2f, #2c2b2b, #000000);
 }
 
 /* .grid {

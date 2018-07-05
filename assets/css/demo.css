@@ -477,6 +477,43 @@ body, html {
     margin-top: 30px;
 }
 
+.videosection 
+{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    background: #000000;
+    background: -webkit-linear-gradient(240deg, #302f2f, #2c2b2b, #03020249);
+    background: linear-gradient(240deg, #302f2f, #2c2b2b, #000000);
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.videoStyle
+{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+     filter: blur(5px);
+     transform: scale(1.1); 
+}
+
+  #myVideo {
+  position: absolute;
+  pointer-events: none;
+  width: 70%;
+  height: 70%;
+  background-size: 100% 100%;
+  background-color: black;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover;
+  z-index: 3; }
+
 .components-page .wrapper>.header,
 .tutorial-page .wrapper>.header {
     height: 500px;
