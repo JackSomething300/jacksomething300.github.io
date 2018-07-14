@@ -1,15 +1,20 @@
 
 
-$('.videosection').hover(
-    function () {
-        console.log("enetered");
-        var $this = $('.videosection')
-        if (!$this.hasClass("videoStyle")) {
-            $this.addClass("videoStyle");
-        }
-        else
-        {
-            $this.removeClass("videoStyle");
-        }
-    }
-)
+$(document).ready(function() 
+{
+    $('.successmessage').hide();
+ });
+
+
+ $("#mc-embedded-subscribe").click(function() { 
+     console.log("clicked");
+    setTimeout(subscribed, 2000);
+});
+
+ function subscribed() {      
+    $('.successmessage').show();
+    document.getElementById("mce-FNAME").value = ''
+    document.getElementById("mce-LNAME").value = ''
+    document.getElementById("mce-EMAIL").value = ''
+}
+

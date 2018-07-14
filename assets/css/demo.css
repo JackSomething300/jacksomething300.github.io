@@ -574,3 +574,9 @@ body, html {
         display: none !important;
     }
 }
+
+.successmessage
+{
+    color: white;
+    font-size: 15px;
+}
