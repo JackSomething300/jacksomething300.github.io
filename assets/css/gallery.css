@@ -1,254 +1,58 @@
-
-  
-  .caption {
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  #water1
-  {
-      position: absolute;
-      left: 50%;
-      top: -10%;
-      width: 50%;
-  }
-
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-  }
-
-  .img-raised {
-    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-    padding-bottom: 15px;
+* {
+	box-sizing: border-box;
 }
 
-.section-story-overview .image-container {
-	height: 335px;
-	position: relative;
-	background-position: center center;
-	background-size: cover;
-	box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-	border-radius: .25rem;
-}
-
-.landing-page .header .container {
-	color: #FFFFFF;
-	z-index: 2;
-	position: relative;
-}
-
-img {
-	max-width: 100%;
-}
-
-.index-page .page-header .container>.content-center {
-	top: 37%;
-}
-
-.page-header .container {
-	z-index: 2;
-}
-
-.gallerycontainer
-{
-    margin-left: auto;
-	margin-right: auto;
-	background: #000000;
-    background: -webkit-linear-gradient(240deg, #302f2f, #2c2b2b, #03020249);
-    background: linear-gradient(240deg, #302f2f, #2c2b2b, #000000);
-}
-
-
-/* .grid {
-	position: relative;
-	max-width: 1000px;
-	list-style: none;
-  	text-align: center;
- 	display: block;
-    margin-left: 25%;
-    margin-right: auto;
-	width: 100%;
-	margin-top: 7%;
-	height: 100%;
-}
-
-/* Common style */
-/* .grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
-	widows: 100%;
-	height: 100%;
-} */
-/* 
-.grid figure img {
-	position: relative;
-	display: block;
-	min-height: 100%;
-	max-width: 100%;
-	opacity: 0.8;
-}
-
-.grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-} */
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-/* .grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}
-
-.grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-}
-
-.grid figure h2 span {
-	font-weight: 800;
-}
-
-.grid figure h2,
-.grid figure p {
+body {
 	margin: 0;
+	font-family: Arial;
 }
 
-.grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
-} */
-
-/*---------------*/
-/***** Honey *****/
-/*---------------*/
-
-/* figure.effect-honey {
-  background: #4a3753;
+.header {
+	text-align: center;
+	padding: 32px;
 }
 
-figure.effect-honey img {
-	opacity: 0.9;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
+.row {
+	display: -ms-flexbox;
+	/* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap;
+	/* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
 }
 
-figure.effect-honey:hover img {
-	opacity: 0.5;
+/* Create four equal columns that sits next to each other */
+
+.column {
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 25%;
+	max-width:25%;
+	padding: 0 4px;
 }
 
-figure.effect-honey figcaption::before {
-	position: absolute;
-	bottom: 0;
-  left: 0;
-	width: 100%;
-	height: 10px;
-	background: #fff;
-	content: '';
-	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,10px,0);
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
 }
 
-figure.effect-honey h2 {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 1em 1.5em;
-	width: 100%;
-	text-align: left;
-	-webkit-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 50%;
+	}
 }
 
-figure.effect-honey h2 i {
-	font-style: normal;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+	.column {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
 }
-
-figure.effect-honey figcaption::before,
-figure.effect-honey h2 {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-}
-
-figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
-	opacity: 1;
-}  */
-
-
-
-/*---------------*/
-/***** Mail Form styling *****/
-/*---------------*/
-.title {
-  font-weight: 700;
-}
-
-.title.title-up {
-  text-transform: uppercase;
-}
-
-.title.title-up a {
-  color: #2c2c2c;
-  text-decoration: none;
-}
-
-.title+.category {
-  margin-top: -25px;
-}
-
-  
-  /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
-      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-          background-attachment: scroll;
-      }
-  }
