@@ -60,7 +60,7 @@ html {
     height: 4px;
     width: 40px;
     border-radius: 40px;
-    background-color: #fff;
+    background: #2c2b2b;
     position: absolute;
     right: 3px;
     top: 3px;
@@ -132,6 +132,9 @@ html {
     opacity: 1;
     height: 400px;
     width: 400px;
+  }
+  .oppenned span{
+    background-color: white;
   }
   .oppenned span:nth-child(2) {
     overflow: visible;
