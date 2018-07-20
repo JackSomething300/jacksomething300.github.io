@@ -9,7 +9,7 @@ $(document).ready(function() {
     })
     $(document).delegate('.cls', 'click', function(event){
         $('.open').removeClass('oppenned');
-        $('.cls').css("background", "#2c2b2b");
+        $('.cls').css("background", "#858484");
         event.stopPropagation();
     });
 });
