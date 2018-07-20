@@ -463,3 +463,107 @@ body, html {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.section-light .section-title 
+{
+    display: table;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: normal;
+}
+
+.section-full-width .sub-title {
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -webkit-opacity: 0.8;
+    /* opacity: 0.8; */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    /* margin: 0; */
+    /* margin-bottom: 1em; */
+    /* padding: 0; */
+    /* font-size: 20px; */
+}  
+
+.section-full-width .sub-title {
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -webkit-opacity: 0.8;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+
+.section-light .sub-title {
+    margin: 0;
+    margin-bottom: 12px;
+    color: #102119;
+    text-align: center;
+    line-height: 1em;
+  }
+  .section-light h4.sub-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Montserrat, 'Open Sans', Helvetica, Arial, sans-serif;
+  }
+
+  .section-dark .section-title:after {
+    content: "";
+    width: 62%;
+    display: block;
+    height: 2px;
+    background: #fdd200;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 7px;
+  }
+  .section-dark .sub-title {
+    margin: auto;
+    margin-bottom: 1.1em;
+    text-align: center;
+  }
+  .section-dark .sub-title + * {
+    margin-top: 30px;
+  }
+
+  
+.section-full-width .sub-title {
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -webkit-opacity: 0.8;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.section-dark-bg .sub-title {
+    display: table;
+    margin-bottom: 1.1em;
+    width: auto;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.7em;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .section-dark-bg .section-title {
+    margin-bottom: 3px;
+    font-weight: normal;
+    text-transform: none;
+  }
