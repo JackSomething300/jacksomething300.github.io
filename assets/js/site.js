@@ -3,8 +3,10 @@
 $(document).ready(function() 
 {
     $('.successmessage').hide();
+    document.addEventListener('contextmenu', event => event.preventDefault());
  });
 
+ 
 
  $("#mc-embedded-subscribe").click(function() { 
      console.log("clicked");

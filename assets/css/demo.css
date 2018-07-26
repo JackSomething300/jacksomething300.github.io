@@ -491,8 +491,10 @@ body, html {
   }
 
 .section-boxed {
-    padding-top: 7%;
     text-align: center;
+    margin: 0 auto;
+    padding: 7%;
+    max-width: 1000px;
 }
 
 .section-light.sub-title {
