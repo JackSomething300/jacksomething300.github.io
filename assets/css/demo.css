@@ -22,7 +22,7 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("../img/photo/Wedding/IMG_0325c.jpg");
+    background-image: url("../img/photo/Enagement/A&W/IMG_7102.jpg");
     min-height: 400px;
     height: 100%;
     background-attachment: fixed;
@@ -491,7 +491,6 @@ body, html {
   }
 
 .section-boxed {
-    text-align: center;
     margin: 0 auto;
     padding: 7%;
     max-width: 1000px;
@@ -515,7 +514,24 @@ body, html {
 
 .section-full-width 
   {
-    height: 400px;
+    height: 700px;
+  }
+
+  .section-fixed
+  {
+    min-height: 900px;
+    overflow: hidden;
+    z-index: 3;
+    position: relative;
+    margin-top: 5%;
+  }
+  .card-title-text
+  {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      top: 0;
+      left: 0;
+      text-align: center;
+      font-size: 20px;
   }
 
   
