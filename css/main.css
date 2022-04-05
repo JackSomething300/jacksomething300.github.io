@@ -2,6 +2,14 @@ body
 {
     background-color: rgb(21, 21, 21) !important;
 }
+header
+{
+background-image: url('../images/code.png');
+background-repeat: no-repeat;
+height: 423px;
+width: 100%;
+}
+
 .profile
 {
     width: 214px;
