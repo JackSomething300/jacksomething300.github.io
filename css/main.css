@@ -1,39 +1,16 @@
 body
 {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(21, 21, 21) !important;
 }
 .profile
 {
-    position: absolute;
     width: 214px;
     height: 208px;
-    left: 24px;
-    top: 61px;
     border-radius: 104px;
-}
-
-.toptxt
-{
-    position: absolute;
-    width: 905px;
-    height: 137px;
-    left: 308px;
-    top: 97px;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FEFEFE;
 }
 
 .sidetxt
 {
-    position: absolute;
-    width: 450px;
-    height: 586px;
-    left: 24px;
-    top: 297px;
     font-family: SF Pro Display;
     font-style: normal;
     font-size: 22px;
